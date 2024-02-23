@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.col2{
+    background-image: url("BG IMG1.png");
+    flex-basis: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.col1{
+    flex-basis: 50%;
+    padding: 20px 15px;
+    background-color: rgba(227,233,239,255);
+}
+.ul{
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+.htext{
+    display: flex;
+    justify-content: space-between;
+}
+.htext p img{
+    width: 20px;
+    /* height: 20px; */
+    margin-right: 5px;
+    /* margin-top: 10px; */
+}
+.htext p{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    max-height: 15px;
+    padding-bottom: 3px;
+    /* margin-top: 10px; */
+}
+#htext1{
+    font-size: 15px;
+}
+.mainbody{
+    padding: 0 20%;
+    padding-top: 15%;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+.mainbody h2{
+    font-weight: 800;
+    font-size: 28px;
+}
+.mainbody p{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.btn{
+    height: 40px;
+    background-color: white;
+    margin: 0 40px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn p{
+    /* height: 10px; */
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 7px;
+
+}
+.wrapper{
+    padding: 0;
+}
+.form input{
+    height: 40px;
+    background-color: white;
+    /* margin: 0 40px; */
+    border: none;
+    padding: 2px 5px;
+    width: 285px;
+    border-radius: 5px;
+    margin-top: 7px;
+    outline: none;
+    padding-left: 15px;
+}
+/* .form{
+
+} */
+.btn1{
+    background-color: black;
+    color: white;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 20%; */
+    /* padding-top: 15%; */
+    /* align-items: center;
+    text-align: center; */
+    max-width: 285px;
+    max-height: 30px;
+    /* margin: 0 40px; */
+    margin: 10px 40px;
+}
+.cb span{
+    font-size: 12px;
+    font-weight: 600;
+}
+.cb input{
+    height: 10px;
+}
+.cb p{
+    height: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cb{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cb p{
+    margin-top: 4px;
+}
+.etext{
+    padding:15% 20% 0% 20%;
+    text-align: center;
+}
+.etext p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.or{
+    padding: 5px 5px;
+    font-size:15px ;
+    font-weight: 600;
+    color: gray;
+}
+.btng{
+    background-color: #77e893;
+}
+.btnh{
+    background-color: #a19ce3;
+}
